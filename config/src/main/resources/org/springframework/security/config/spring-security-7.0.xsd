@@ -1999,6 +1999,12 @@
                 </xs:documentation>
          </xs:annotation>
       </xs:attribute>
+      <xs:attribute name="authentication-converter-ref" type="xs:token">
+         <xs:annotation>
+            <xs:documentation>Reference to a AuthenticationConverter
+                </xs:documentation>
+         </xs:annotation>
+      </xs:attribute>
   </xs:attributeGroup>
   <xs:element name="jwt">
       <xs:annotation>
@@ -2908,6 +2914,12 @@
          <xs:annotation>
             <xs:documentation>Reference to an AuthenticationDetailsSource which will be used by the authentication
                 filter
+                </xs:documentation>
+         </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="principal-extractor-ref" type="xs:token">
+         <xs:annotation>
+            <xs:documentation>Reference to an X509PrincipalExtractor which will be used by the authentication filter
                 </xs:documentation>
          </xs:annotation>
       </xs:attribute>
