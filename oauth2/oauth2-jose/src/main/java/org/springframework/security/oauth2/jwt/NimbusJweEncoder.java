@@ -57,8 +57,8 @@ import com.nimbusds.jose.util.Base64URL;
 import com.nimbusds.jwt.JWTClaimsSet;
 
 import org.springframework.core.convert.converter.Converter;
+import org.springframework.security.oauth2.jose.jwe.EncryptionMethod;
 import org.springframework.security.oauth2.jose.jwe.JweAlgorithm;
-import org.springframework.security.oauth2.jose.jwe.JweHeader;
 import org.springframework.util.Assert;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;

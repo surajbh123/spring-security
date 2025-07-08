@@ -14,12 +14,13 @@
  * limitations under the License.
  */
 
-package org.springframework.security.oauth2.jose.jwe;
+package org.springframework.security.oauth2.jwt;
 
 import java.util.Map;
 import java.util.function.Consumer;
 
-import org.springframework.security.oauth2.jwt.JoseHeader;
+import org.springframework.security.oauth2.jose.jwe.EncryptionMethod;
+import org.springframework.security.oauth2.jose.jwe.JweAlgorithm;
 import org.springframework.util.Assert;
 
 /**

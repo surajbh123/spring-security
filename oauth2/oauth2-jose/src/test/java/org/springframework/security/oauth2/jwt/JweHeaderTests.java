@@ -14,9 +14,11 @@
  * limitations under the License.
  */
 
-package org.springframework.security.oauth2.jose.jwe;
+package org.springframework.security.oauth2.jwt;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.security.oauth2.jose.jwe.EncryptionMethod;
+import org.springframework.security.oauth2.jose.jwe.JweAlgorithm;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;

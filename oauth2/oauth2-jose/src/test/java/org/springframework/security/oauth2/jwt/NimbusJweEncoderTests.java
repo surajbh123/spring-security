@@ -30,7 +30,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.security.oauth2.jose.TestJwks;
 import org.springframework.security.oauth2.jose.jwe.EncryptionMethod;
 import org.springframework.security.oauth2.jose.jwe.JweAlgorithm;
-import org.springframework.security.oauth2.jose.jwe.JweHeader;
+import org.springframework.security.oauth2.jwt.JweHeader;
 import org.springframework.security.oauth2.jose.jws.SignatureAlgorithm;
 
 import static org.assertj.core.api.Assertions.assertThat;
